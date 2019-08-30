@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE books[
+<!ELEMENT book (title,author,publisher,edition,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+
+	<books>
+		
+
+		<book>
+			<title> Cryptography and Network Security </title>
+			<author> William Stallings</author>
+			<publisher> Technical Publications  </publisher>
+			<edition>Fourth edition</edition>
+			<price> 256 </price>
+		</book>
+		<br></br>
+		<book>
+			<title>HTML </title>
+			<author> Anmesh</author>
+			<publisher>Techology guru</publisher>
+			<edition>Third edition</edition>
+			<price> 234</price>
+		</book>
+		<br></br>
+		<book>
+			<title> CSS</title>
+			<author> Anmol </author>
+			<publisher> technology skill </publisher>
+			<edition>third edition </edition>
+			<price> 553 </price>
+		</book>
+		<br></br>
+		<book>
+			<title> Java script </title>
+			<author> kanishka</author>
+			<publisher> technology skill </publisher>
+			<edition> fourth edition </edition>
+			<price> 114 </price>
+		</book>
+		<br></br>
+		<book>
+			<title> Java </title>
+			<author> Apoorva </author>
+			<publisher> techno  </publisher>
+			<edition> second edition </edition>
+			<price> 565 </price>
+		</book>
+<footer>
+
+		MADE BY Aditi singh
+</footer>	
+	</books>

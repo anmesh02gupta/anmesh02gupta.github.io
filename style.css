@@ -1,0 +1,23 @@
+books {
+	text-align: center;
+	background-color: rgba(0,0,255,0.4);
+}
+h1{
+	
+	font-size: 200%;
+	font-family: cursive;
+}
+book{
+font-size: 180%;
+
+}
+
+title{
+	font-size: 200%;
+}
+title, author, publisher, edition, price{
+	display: block;
+}
+footer{
+font-size:170%;
+}
